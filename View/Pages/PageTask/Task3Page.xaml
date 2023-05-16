@@ -45,7 +45,7 @@
                         <materialDesign:PackIcon Kind="clipboardcheckoutline"
                                                  Style="{DynamicResource menuButtonIcon}" Width="70"/>
                         <TextBlock Text="Задание №1"
-                                   Style="{DynamicResource menuButtonText}"/>
+                                   Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
 
@@ -58,7 +58,7 @@
                                                  Style="{DynamicResource menubuttonIcon}" Width="70"/>
                         <TextBlock Text="Задание №2"
                                    Style="{DynamicResource menuButtonText}"
-                                   Foreground="#fff"/>
+                                   Foreground="#fff" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
                 <Button Style="{DynamicResource menuButton}"
@@ -70,7 +70,7 @@
                         <materialDesign:PackIcon Kind="clipboardcheckoutline"
                                                  Style="{DynamicResource menubuttonIcon}" Width="70"/>
                         <TextBlock Text="Задание №3"
-                                   Style="{DynamicResource menuButtonText}"/>
+                                   Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
                 <Button Style="{DynamicResource menuButton}"
@@ -82,7 +82,7 @@
                         <materialDesign:PackIcon Kind="clipboardcheckoutline"
                                                  Style="{DynamicResource menubuttonIcon}" Width="70"/>
                         <TextBlock Text="Задание №4"
-                                   Style="{DynamicResource menuButtonText}"/>
+                                   Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
                 <Button Style="{DynamicResource menuButton}"
@@ -94,7 +94,7 @@
                         <materialDesign:PackIcon Kind="clipboardcheckoutline"
                                                  Style="{DynamicResource menubuttonIcon}" RenderTransformOrigin="2.436,0.72" Width="70"/>
                         <TextBlock Text="Задание №5"
-                                   Style="{DynamicResource menuButtonText}"/>
+                                   Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
                 <Button Style="{DynamicResource menuButton}"
@@ -106,7 +106,7 @@
                         <materialDesign:PackIcon Kind="clipboardcheckoutline"
                                                  Style="{DynamicResource menubuttonIcon}" RenderTransformOrigin="2.436,0.72" Width="70"/>
                         <TextBlock Text="Задание №6"
-                                   Style="{DynamicResource menuButtonText}"/>
+                                   Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
                 <Button Style="{DynamicResource menuButton}"
@@ -131,7 +131,7 @@
                         <materialDesign:PackIcon Kind="Power"
                                   Style="{DynamicResource menuButtonIcon}" RenderTransformOrigin="2.36,0.573" Height="13" Width="34"/>
                         <TextBlock Text="Выйти"
-                           Style="{DynamicResource menuButtonText}"/>
+                           Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
 

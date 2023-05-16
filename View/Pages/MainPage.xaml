@@ -63,7 +63,7 @@
                     Click="BtnTask_Click"
                     Style="{StaticResource MaterialDesignRaisedButton}"
                     materialDesign:ButtonProgressAssist.Value="-1"
-                    materialDesign:ButtonProgressAssist.IndicatorForeground="White"
+                    materialDesign:ButtonProgressAssist.IndicatorForeground="white"
                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
                     materialDesign:ButtonProgressAssist.IsIndeterminate="True"
                     Height="60">

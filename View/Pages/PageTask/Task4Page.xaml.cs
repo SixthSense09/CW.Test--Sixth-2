@@ -39,10 +39,7 @@ namespace CW.Test.View.Pages.PageTask
         {
             CoreTest.TestFrame?.Navigate(new Task6Page());
         }
-        static void BtnTask4_Click()
-        {
 
-        }
         private void BtnLogout_Click(object sender, RoutedEventArgs e)
         {
             if (MessageBox.Show("Вы действительно хотите выйти?",

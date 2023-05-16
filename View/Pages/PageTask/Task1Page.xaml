@@ -46,7 +46,7 @@
                         <materialDesign:PackIcon Kind="clipboardcheckoutline"
                                                  Style="{DynamicResource menuButtonIcon}" Width="70"/>
                         <TextBlock Text="Задание №1"
-                                   Style="{DynamicResource menuButtonText}"/>
+                                   Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
 
@@ -59,7 +59,7 @@
                                                  Style="{DynamicResource menubuttonIcon}" Width="70"/>
                         <TextBlock Text="Задание №2"
                                    Style="{DynamicResource menuButtonText}"
-                                   Foreground="#fff"/>
+                                   Foreground="#fff" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
                 <Button Style="{DynamicResource menuButton}"
@@ -71,7 +71,7 @@
                         <materialDesign:PackIcon Kind="clipboardcheckoutline"
                                                  Style="{DynamicResource menubuttonIcon}" Width="70"/>
                         <TextBlock Text="Задание №3"
-                                   Style="{DynamicResource menuButtonText}"/>
+                                   Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
                 <Button Style="{DynamicResource menuButton}"
@@ -83,7 +83,7 @@
                         <materialDesign:PackIcon Kind="clipboardcheckoutline"
                                                  Style="{DynamicResource menubuttonIcon}" Width="70"/>
                         <TextBlock Text="Задание №4"
-                                   Style="{DynamicResource menuButtonText}"/>
+                                   Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
                 <Button Style="{DynamicResource menuButton}"
@@ -95,7 +95,7 @@
                         <materialDesign:PackIcon Kind="clipboardcheckoutline"
                                                  Style="{DynamicResource menubuttonIcon}" RenderTransformOrigin="2.436,0.72" Width="70"/>
                         <TextBlock Text="Задание №5"
-                                   Style="{DynamicResource menuButtonText}"/>
+                                   Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
                 <Button Style="{DynamicResource menuButton}"
@@ -107,7 +107,7 @@
                         <materialDesign:PackIcon Kind="clipboardcheckoutline"
                                                  Style="{DynamicResource menubuttonIcon}" RenderTransformOrigin="2.436,0.72" Width="70"/>
                         <TextBlock Text="Задание №6"
-                                   Style="{DynamicResource menuButtonText}"/>
+                                   Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
                 <Button Style="{DynamicResource menuButton}"
@@ -132,7 +132,7 @@
                         <materialDesign:PackIcon Kind="Power"
                                   Style="{DynamicResource menuButtonIcon}" RenderTransformOrigin="2.36,0.573" Height="13" Width="34"/>
                         <TextBlock Text="Выйти"
-                           Style="{DynamicResource menuButtonText}"/>
+                           Style="{DynamicResource menuButtonText}" FontFamily="Verdana"/>
                     </StackPanel>
                 </Button>
 
@@ -151,39 +151,132 @@
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Width="600"
-                Height="64"
+                Height="70"
                 Background="#FF471696"
                 CornerRadius="15"
                 Padding="5"
-                Effect="{StaticResource MaterialDesignElevationShadow1}" Margin="0,10,0,0" Grid.Row="4">
+                Effect="{StaticResource MaterialDesignElevationShadow1}" Margin="0,10,0,0">
                 <StackPanel HorizontalAlignment="Left"
                         VerticalAlignment="Center">
-                    <TextBlock Text="Задание №1 - Задано положительное и отрицательное число в двоичной системе. Составить программу вычисления суммы этих чисел, используя функциюсложения чисел в двоичной системе счисления."
+                    <TextBlock Text="Задание №1 - Задано положительное и отрицательное число в двоичной системе. Составить программу вычисления суммы этих чисел, используя функцию сложения чисел в двоичной системе счисления."
                            FontSize="13"
                            TextWrapping="Wrap"
                            Foreground="White"
-                           FontWeight="SemiBold" Height="56" FontFamily="Times New Roman"/>
+                           FontWeight="SemiBold" Height="45" FontFamily="Times New Roman" Width="591"/>
                 </StackPanel>
             </Border>
-            <Border Grid.Row="4"
+            <Border
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
-                    Margin="0,80,0,0"
+                    Margin="0,105,0,0"
                     Width="600"
-                    Height="67"
+                    Height="85"
                     Background="#FF471696"
                     CornerRadius="15"
                     Padding="5"
                     Effect="{StaticResource MaterialDesignElevationShadow1}">
+
                 <StackPanel HorizontalAlignment="Left"
-                            VerticalAlignment="Center">
-                    <TextBlock Text=""
-                               FontSize="11"
+                            VerticalAlignment="Center"
+                            Grid.Row="5"
+                            Width="500">
+
+                    <TextBlock
+                        Margin="115 -20 0 0"
+                        Text="Введите последовательность цифр: "
+                               FontSize="13"
                                TextWrapping="Wrap"
                                Foreground="white"
-                               FontWeight="SemiBold" Height="395"/>
+                               FontWeight="SemiBold" Height="20" Width="338" FontFamily="Times New Roman"/>
+
                 </StackPanel>
             </Border>
+
+            <Border Height="144" VerticalAlignment="Center" HorizontalAlignment="Center" Width="630">
+                <StackPanel Margin="0,0,0,-21">
+
+                    <Button
+                        
+                        x:Name="Task_1"
+                        Click="Task_1_Click" Margin="150 120 285 0" Height="26">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF56189D"/>
+                                <GradientStop Color="#FF39079C" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                        <TextBlock
+                            Text="Нажмите для решения"
+                            FontSize="13"
+                            Foreground="White"
+                            FontWeight="SemiBold" Height="20" Width="138" FontFamily="Times New Roman">
+                        </TextBlock>
+
+
+                    </Button>
+                </StackPanel>
+            </Border>
+
+
+
+
+            <Border Height="124" VerticalAlignment="Center" Margin="306,0,0,0" HorizontalAlignment="Left" Width="246">
+                <StackPanel Height="116" VerticalAlignment="Top" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
+                    <StackPanel.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="-1"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </StackPanel.RenderTransform>
+                    <TextBox
+                        x:Name="Task1"
+                        Margin="100 90 45 0"
+                        RenderTransformOrigin="0.5,0.5"
+                        Height="22" Width="101"
+                        Foreground="White">
+                        <TextBox.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="-1"/>
+                                <SkewTransform AngleX="-2.124"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="0.463"/>
+                            </TransformGroup>
+                        </TextBox.RenderTransform>
+
+                    </TextBox>
+                </StackPanel>
+            </Border>
+            <Border Height="190" VerticalAlignment="Center" Margin="300,0,0,0" HorizontalAlignment="Left" Width="252">
+                <StackPanel Height="190" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                    <StackPanel.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="-1"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </StackPanel.RenderTransform>
+                    <TextBox
+                        x:Name="Task1_"
+                        Margin="95 150 45 0"
+                        RenderTransformOrigin="0.5,0.5"
+                        Height="22" Width="101"
+                        Foreground="White">
+                        <TextBox.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="-1"/>
+                                <SkewTransform AngleX="-2.124"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="0.463"/>
+                            </TransformGroup>
+                        </TextBox.RenderTransform>
+
+                    </TextBox>
+                </StackPanel>
+            </Border>
+
         </Grid>
     </Grid>
 </Page>

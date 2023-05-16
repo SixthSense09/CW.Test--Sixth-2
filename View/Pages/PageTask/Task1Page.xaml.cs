@@ -1,4 +1,6 @@
 ﻿using CW.Test.Core;
+using System;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -14,6 +16,9 @@ namespace CW.Test.View.Pages.PageTask
             InitializeComponent();
         }
         private void BtnTask1_Click(object sender, RoutedEventArgs e)
+
+
+
         {
             CoreTest.TestFrame?.Navigate(new Task1Page());
         }
@@ -48,5 +53,20 @@ namespace CW.Test.View.Pages.PageTask
             }
         }
 
+        private void Task_1_Click(object sender, RoutedEventArgs e)
+        {
+            string A = (Task1.Text);
+            string B = (Task1_.Text);
+        
+            int b = Convert.ToInt32(B);
+            int a = Convert.ToInt32(A); 
+            int b3 = a + b;
+            MessageBox.Show($"{b3}", "Системное сообщение",
+                                   MessageBoxButton.OK,
+                                   MessageBoxImage.Information);
+
+
+
+        }        
     }
 }
